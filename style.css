@@ -6,7 +6,7 @@ body{
     margin: 0%;
 }
 
-/*---start-header---*/
+/*---start-header-section---*/
 .header{
     font-size: 70px;
     color: white;
@@ -38,10 +38,11 @@ body{
     font-weight: 500;
     background-color: tomato;
     border-radius: 5px;
+    text-align: center;
 }
-/*---end-header---*/
+/*---end-header-section---*/
 
-
+/*--start-amount-section--*/
 .donate-t{
     text-align: center;
     padding-top: 90px;
@@ -55,6 +56,7 @@ body{
 .opacity{
     opacity: 0.7;
     margin-bottom: 0%;
+    padding: 0%;
 }
 
 .flex-container{
@@ -111,16 +113,49 @@ input[type='text']{
     opacity: 0.3;
 }
 
-.button{
-    text-decoration: none;
-    padding: 15px 20px;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: tomato;
-    border-radius: 5px;
-    text-align: center;
-}
 .color-button{
     text-align: center;
+    padding-bottom: 105px;
 }
+/*--end-amount-section--*/
+
+/*--start-donate-plan-section--*/
+#donate-plan{
+    text-align: center;
+}
+
+#flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+#flex-box > div{
+    padding: 40px 40px;
+    margin: 10px;
+    border-radius: 7px;
+    height: 285px;
+}
+
+.flex-iteam-1{
+    width: 20%;
+    background-color: rgba(140, 222, 221, 0.278);
+}
+
+.flex-iteam-2{
+    width: 20%;
+    background-color: rgba(231, 154, 126, 0.251);
+}
+
+.flex-iteam-3{
+    width: 20%;
+    background-color: rgba(219, 222, 140, 0.36);
+}
+
+.bottom-clear{
+    padding-bottom: 40px;
+}
+/*--end-donate-plan-section--*/
