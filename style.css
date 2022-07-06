@@ -22,7 +22,7 @@ body{
 }
 
 .top-banner{
-    background-image: url(images/donation7.jpg);
+    background-image: url(images/donation7n.jpg);
     background-repeat: no-repeat;
     height: 550px;
     padding: 80px;
@@ -254,7 +254,7 @@ input{
     box-sizing: border-box;
 }
 input[type='email']{
-    background-color: azure;
+    background-color: aliceblue;
     width: 340px;
     height: 50px;
     border: none;
@@ -274,6 +274,7 @@ input[type='submit']{
     cursor: pointer;
     background-color: tomato;
 }
+
 .footer{
     background-color: black;
     text-align: center;
