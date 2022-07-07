@@ -185,7 +185,7 @@ input[type='text']{
 }
 
 #img-width{
-    width: 475px;
+    width: 500px;
     height: 500px;
 }
 
@@ -286,7 +286,7 @@ input[type='submit']{
 footer > h1{
     font-weight: bolder;
     color: tomato;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
 
